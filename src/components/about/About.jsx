@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className="about__cards">
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit fuga officia saepe nam explicabo, temporibus sunt suscipit vel distinctio impedit quidem laboriosam molestiae obcaecati nihil consequatur ab deserunt velit.
+                    My name is Kristy Guo. I am currently a full-time student enrolled in a coding bootcamp offered by UC Berkeley. I am always interested in a challenge and am looking for a position as a software developer. Feel free to reach out so we can chat more!
                     </p>
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
