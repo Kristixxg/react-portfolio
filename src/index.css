@@ -11,11 +11,18 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
+  /* --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6); */
+
+  --color-bg: #e5599d;
+  --color-bg-variant: #3958a1;
+  --color-primary: rgb(255, 255, 255);
+  --color-primary-variant: rgba(255, 255, 255, 0.487);
+  --color-white: rgb(255, 255, 255);
   --color-light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease;
@@ -38,7 +45,8 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg.jpeg);
+  background-image: url(../src/assets/bgPinkBlue.jpeg);
+  background-size: contain;
 }
 
 /* General Style */

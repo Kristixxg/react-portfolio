@@ -45,6 +45,10 @@ form {
     gap: 1.2rem;
 }
 
+::placeholder {
+    color: var(--color-white);
+  }
+
 input, textarea {
     width: 100%;
     padding: 1.5rem;

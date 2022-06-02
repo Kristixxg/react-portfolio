@@ -7,7 +7,8 @@
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 12rem 12rem 0 0;
+    /* border-radius: 12rem 12rem 0 0; */
+    border-radius: 50%;
     background: linear-gradient(var(--color-primary), transparent);
     /* background: linear-gradient(
     45deg,
@@ -21,6 +22,7 @@
 
 .about__me-image {
     transform: scale(1);
+    border-radius: 50%;
     /* border-radius: 2rem; */
     overflow: hidden;
     /* transform: rotate(10deg); */
@@ -28,8 +30,7 @@
 }
 
 .about__me-image:hover {
-    /* transform: rotate(0deg); */
-    transform: scale(1.03);
+background-color: var(--color-bg-variant);
 
 }
 

@@ -33,4 +33,10 @@ footer a {
 
 .footer_copyright {
     margin-bottom: 0.3rem;
+    
+}
+
+.footer_copyright small {
+   color: gray;
+   font-weight: 400;
 }
