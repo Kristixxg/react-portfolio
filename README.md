@@ -1,4 +1,4 @@
-# Kristy's Portfolio
+# Kristy's React Portfolio
 
 ## Description 
 Kristy's portfolio showcasing her new React skills along with HTML, CSS and JavaScript skills to employers who are looking to fill a part-time or full-time position.
