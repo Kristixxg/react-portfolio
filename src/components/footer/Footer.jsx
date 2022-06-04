@@ -11,13 +11,13 @@ const Footer = () => {
 
             <div className="footer__socials">
                 <button className="btn btn-primary footer-btn">
-                    <a href="https://www.linkedin.com/in/kristixxg/" target="#"><BsLinkedin /></a>
-                    <h4>LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/kristixxg/" target="#"><BsLinkedin /><h4>LinkedIn</h4></a>
+                    
                 </button>
                 
                 <button className="btn btn-primary footer-btn">
-                    <a href="https://github.com/Kristixxg" target="#"><BsGithub /></a>
-                    <h4>GitHub</h4>
+                    <a href="https://github.com/Kristixxg" target="#"><BsGithub /><h4>GitHub</h4></a>
+                    
                 </button>
                
             </div>
