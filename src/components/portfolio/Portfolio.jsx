@@ -2,34 +2,42 @@ import React from "react";
 import './portfolio.css';
 import Recipe from '../../assets/recipeSearch.png';
 import BookSpot from '../../assets/bookSpot.png';
-import Quiz from '../../assets/quiz.png';
+// import Quiz from '../../assets/quiz.png';
 import NoteTaker from '../../assets/notetaker.png';
 import dayplanner from '../../assets/dayplanner.png';
 import textEditor from '../../assets/texteditor.png';
+import whosthere from '../../assets/Frame2.jpg';
 
 
 const data = [
     {
         id:1,
+        image: whosthere,
+        title: 'Whos There',
+        github: 'https://github.com/Kristixxg/whos-there',
+        demo:'https://whos-there-kkc.herokuapp.com/'
+    },
+    {
+        id:2,
         image: Recipe,
         title: 'Recipe Search Tool',
         github: 'https://github.com/Kristixxg/recipes-search-tool',
         demo:'https://snehitak20.github.io/lets-stay-in'
     },
     {
-        id:2,
+        id:3,
         image: BookSpot,
         title: 'Book Search Engine',
         github: 'https://github.com/Kristixxg/book-spot-search-tool',
         demo:'https://aqueous-plateau-74718.herokuapp.com/'
     },
-    {
-        id:3,
-        image: Quiz,
-        title: 'Code Quiz',
-        github: 'https://github.com/Kristixxg/code-quiz',
-        demo:'https://kristixxg.github.io/code-quiz/'
-    },
+    // {
+    //     id:4,
+    //     image: Quiz,
+    //     title: 'Code Quiz',
+    //     github: 'https://github.com/Kristixxg/code-quiz',
+    //     demo:'https://kristixxg.github.io/code-quiz/'
+    // },
     {
         id:4,
         image: NoteTaker,

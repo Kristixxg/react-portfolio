@@ -3,6 +3,7 @@ import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai';
 import emailjs from '@emailjs/browser';
 
+
 const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
@@ -31,6 +32,9 @@ const Contact = () => {
                         {/* <h5>krisxxg@gmail.com</h5> */}
                         <a href="mailto:krisxxg@gmail.com" target='#'>Send an Email</a>
                     </article>
+                    <div className="map">
+                        <iframe src="https://maps.google.com/maps?q=san%20francisco&t=&z=9&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder="Your Full Name" required/>

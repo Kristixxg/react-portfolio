@@ -1,42 +1,105 @@
+
+
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 50% 35%;
     gap: 15%;
-}
-
-.about__me {
-    width: 100%;
-    aspect-ratio: 1/1;
-    /* border-radius: 12rem 12rem 0 0; */
-    border-radius: 50%;
-    background: linear-gradient(var(--color-primary), transparent);
-    /* background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-    ); */
-    display: grid;
-    place-items: center;
-}
-
-.about__me-image {
-    transform: scale(1);
-    border-radius: 50%;
-    /* border-radius: 2rem; */
-    overflow: hidden;
-    /* transform: rotate(10deg); */
-    transition: var(--transition);
-}
-
-.about__me-image:hover {
-background-color: var(--color-bg-variant);
-
 }
 
 .about__cards p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+
+/* .about__me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: linear-gradient(var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+} */
+
+
+.lego_ul {
+    margin-top: 3rem;
+    transform: skewY(-15deg);
+}
+
+.lego_li {
+    position: relative;
+    width:380px;
+    background: #3e3f46;
+    padding: 14px;
+    font-size: 13px;
+    transition: 0.5s;
+    z-index: calc(1* var(--i));
+    color: rgb(194, 194, 194);
+}
+
+.lego_li:hover {
+    transform: translateX(-50px);
+    background: var(--clr);
+    color: white;
+    transition: 0.5s;
+}
+
+.lego_li::before {
+    content: "";
+    position: absolute;
+    background: #3e3f46;
+    height: 100%;
+    width: 40px;
+    top:0;
+    left: -40px;
+    filter: brightness(0.7);
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 0.5s;
+}
+
+.lego_li:hover::before {
+    background: var(--clr);
+    filter: brightness(0.7);
+}
+
+.lego_li::after {
+    content: "";
+    position: absolute;
+    top:-40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #3e3f46;
+    filter: brightness(0.9);
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+}
+
+.lego_li:hover::after {
+    background: var(--clr);
+    filter: brightness(0.9);
+}
+
+.lego_li:last-child::after {
+    box-shadow: -120px 120px 20px rgba(0,0,0,0.25);
+}
+
+span {
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    top:0;
+    left: -40px;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
 }
 
 
@@ -67,8 +130,22 @@ background-color: var(--color-bg-variant);
 
 /* media queries phone */
 @media screen and (max-width: 600px) {
+
+    .about__cards {
+        width: 90vw;
+    }
+
     .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
+        width: 100%;
+        margin: 3rem auto 3rem;
+    }
+
+    .lego_ul {
+        margin-left: 25%;
+    }
+
+    .lego_li {
+      width: 90%;
+      font-size: 10px;
     }
 }
