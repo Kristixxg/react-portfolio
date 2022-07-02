@@ -12,9 +12,15 @@ nav {
     gap: 2rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+
+/* 
+    flex-direction: column;
+    left: 4rem;
+    top:10rem; */
 }
 
 nav a {
+
     background: transparent;
     padding: 0.6rem 0.6rem;
     border-radius: 50%;

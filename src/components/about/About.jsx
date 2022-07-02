@@ -18,7 +18,7 @@ const About = () => {
 
             <div className="about__cards">
                     <p>
-                    Hi, I'm Kristy Guo. I graduated from UC Davis with a B.S. Degree in Landscape Architecture. I had 5+ years of experience in the Construction Management field as a senior Project Engineer. With a great passion for web development I decided to make a career change and had recently completed a full-Stack Coding Bootcamp by UC Berkeley Extension. I am actively seeking for opportunities in software development and my goal as a software engineer is to build impactful products and learn new technologies.
+                    Hi, I'm Kristy Guo. I graduated from UC Davis with a B.S. degree in Landscape Architecture. I had 5+ years of experience in the construction management field as a senior project engineer. With a great passion for web development I decided to make a career change and had recently completed a full-stack coding bootcamp by UC Berkeley. I am actively seeking for opportunities in software development and my goal as a software engineer is to build impactful products and learn new technologies.
                     </p>
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
@@ -36,7 +36,7 @@ const About = () => {
                         <li style={{"--clr":"#25d366", "--i":5}} className="lego_li"><span><MdConstruction /></span>Construction / Commercial / Infrastructure</li>
                         <li style={{"--clr":"#1da1f2", "--i":4}} className="lego_li"><span><IoIosTennisball /></span>Tennis / Running / Gym / Rumble Boxing</li>
                         <li style={{"--clr":"#c32aa3", "--i":3}} className="lego_li"><span><BiMoviePlay /></span>Ozark / Fight Club / Said The Sky</li>
-                        <li style={{"--clr":"#ff0000", "--i":2}} className="lego_li"><span><FaCoffee /></span>Pour Over / Bubble Tea / Rasberries</li>
+                        <li style={{"--clr":"#ff0000", "--i":2}} className="lego_li"><span><FaCoffee /></span>Pour Over / Bubble Tea / Raspberries</li>
                         {/* #0affc2 */}
                     </ul>
 
