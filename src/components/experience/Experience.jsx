@@ -3,14 +3,26 @@ import "./experience.css";
 import { ImHtmlFive } from "react-icons/im";
 import { FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaReact } from "react-icons/fa";
-import { BsBootstrapFill } from "react-icons/bs";
+import { FaReact, FaAws } from "react-icons/fa";
+import { BsBootstrapFill, BsFillCaretUpFill } from "react-icons/bs";
+import { DiFirebase } from "react-icons/di";
 
 import { GrNode } from "react-icons/gr";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { SiGraphql } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { BiBadge } from "react-icons/bi";
+import {
+  SiGraphql,
+  SiTypescript,
+  SiTailwindcss,
+  SiPrisma,
+  SiGithub,
+  SiFigma,
+  SiHeroku,
+  SiVercel,
+} from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -23,12 +35,18 @@ const Experience = () => {
           <h3>Frontend Development</h3>
 
           <div className="experience__content">
-            <h4>Next.js</h4>
+            <article className="experience__details">
+              <SiNextdotjs className="experience__details-icon" />
+              <h4>Next.js</h4>
+            </article>
+
             <article className="experience__details">
               <FaReact className="experience__details-icon" />
               <h4>React.js</h4>
             </article>
+
             <article className="experience__details">
+              <SiTypescript className="experience__details-icon" />
               <h4>TypeScript</h4>
             </article>
 
@@ -37,6 +55,7 @@ const Experience = () => {
               <h4>JavaScript</h4>
             </article>
             <article className="experience__details">
+              <SiTailwindcss className="experience__details-icon" />
               <h4>TailwindCSS</h4>
             </article>
 
@@ -75,11 +94,11 @@ const Experience = () => {
               <h4>GraphQL</h4>
             </article>
             <article className="experience__details">
-              <SiGraphql className="experience__details-icon" />
+              <SiPrisma className="experience__details-icon" />
               <h4>Prisma</h4>
             </article>
             <article className="experience__details">
-              <SiGraphql className="experience__details-icon" />
+              <BiBadge className="experience__details-icon" />
               <h4>tRPC</h4>
             </article>
           </div>
@@ -88,35 +107,35 @@ const Experience = () => {
           <h3>Other Technologies</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <GrNode className="experience__details-icon" />
+              <SiGithub className="experience__details-icon" />
               <h4>GitHub</h4>
             </article>
 
             <article className="experience__details">
-              <GrNode className="experience__details-icon" />
+              <SiVercel className="experience__details-icon" />
               <h4>Vercel</h4>
             </article>
 
             <article className="experience__details">
-              <GrNode className="experience__details-icon" />
+              <SiHeroku className="experience__details-icon" />
               <h4>Heroku</h4>
             </article>
 
             <article className="experience__details">
-              <GrNode className="experience__details-icon" />
+              <FaAws className="experience__details-icon" />
               <h4>AWS</h4>
             </article>
 
             <article className="experience__details">
-              <GrNode className="experience__details-icon" />
+              <SiFigma className="experience__details-icon" />
               <h4>Figma</h4>
             </article>
             <article className="experience__details">
-              <GrNode className="experience__details-icon" />
+              <DiFirebase className="experience__details-icon" />
               <h4>Firebase</h4>
             </article>
             <article className="experience__details">
-              <GrNode className="experience__details-icon" />
+              <BsFillCaretUpFill className="experience__details-icon" />
               <h4>Sanity.io</h4>
             </article>
           </div>
