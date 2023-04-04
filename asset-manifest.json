@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.cc002de6.css",
+    "main.js": "/react-portfolio/static/js/main.02140b41.js",
+    "static/media/profileFull-removebg.png": "/react-portfolio/static/media/profileFull-removebg.362147c1e50c36181b22.png",
+    "static/media/bookSpot.png": "/react-portfolio/static/media/bookSpot.6cba5409fd08abede338.png",
+    "static/media/b.jpeg": "/react-portfolio/static/media/b.9ee90238a9bcfb20ba84.jpeg",
+    "static/media/resume_swe.pdf": "/react-portfolio/static/media/resume_swe.46d3980b50cfd0fc25ae.pdf",
+    "static/media/notetaker.png": "/react-portfolio/static/media/notetaker.ee87e78222a5f15df2d7.png",
+    "static/media/recipeSearch.png": "/react-portfolio/static/media/recipeSearch.f01ea5433f174ab7e185.png",
+    "static/media/dayplanner.png": "/react-portfolio/static/media/dayplanner.1303abc882dbe8b57d7d.png",
+    "static/media/texteditor.png": "/react-portfolio/static/media/texteditor.bdacc758be23ad1045eb.png",
+    "static/media/Frame2.jpg": "/react-portfolio/static/media/Frame2.c093fc06f3449e117c97.jpg",
+    "static/media/AvatarMaker.png": "/react-portfolio/static/media/AvatarMaker.a6df27ae526b65d4b9be.png",
+    "static/media/chatgpt.svg": "/react-portfolio/static/media/chatgpt.4c5117b9d7e32fb75796aa76740f1736.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.cc002de6.css.map": "/react-portfolio/static/css/main.cc002de6.css.map",
+    "main.02140b41.js.map": "/react-portfolio/static/js/main.02140b41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc002de6.css",
+    "static/js/main.02140b41.js"
+  ]
+}
