@@ -15,7 +15,7 @@ const data = [
     image: chatgpt,
     title: "ChatGPT Clone",
     github: "https://github.com/Kristixxg/chatgpt-clone",
-    demo: "chatgpt-clone-kristixxg.vercel.app/",
+    demo: "https://chatgpt-clone-kristixxg.vercel.app/",
   },
   //   {
   //     id: 2,
