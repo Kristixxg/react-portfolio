@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.cc002de6.css",
-    "main.js": "/react-portfolio/static/js/main.f70507c6.js",
+    "main.js": "/react-portfolio/static/js/main.5b09685d.js",
     "static/media/profileFull-removebg.png": "/react-portfolio/static/media/profileFull-removebg.362147c1e50c36181b22.png",
     "static/media/bookSpot.png": "/react-portfolio/static/media/bookSpot.6cba5409fd08abede338.png",
     "static/media/b.jpeg": "/react-portfolio/static/media/b.9ee90238a9bcfb20ba84.jpeg",
-    "static/media/resume_swe.pdf": "/react-portfolio/static/media/resume_swe.46d3980b50cfd0fc25ae.pdf",
+    "static/media/resume_swe.pdf": "/react-portfolio/static/media/resume_swe.0dff9a2f22dfee07cb68.pdf",
     "static/media/notetaker.png": "/react-portfolio/static/media/notetaker.ee87e78222a5f15df2d7.png",
     "static/media/cart.jpeg": "/react-portfolio/static/media/cart.6edda5cb36e356a38eed.jpeg",
     "static/media/recipeSearch.png": "/react-portfolio/static/media/recipeSearch.f01ea5433f174ab7e185.png",
@@ -16,10 +16,10 @@
     "static/media/chatgpt.svg": "/react-portfolio/static/media/chatgpt.4c5117b9d7e32fb75796aa76740f1736.svg",
     "index.html": "/react-portfolio/index.html",
     "main.cc002de6.css.map": "/react-portfolio/static/css/main.cc002de6.css.map",
-    "main.f70507c6.js.map": "/react-portfolio/static/js/main.f70507c6.js.map"
+    "main.5b09685d.js.map": "/react-portfolio/static/js/main.5b09685d.js.map"
   },
   "entrypoints": [
     "static/css/main.cc002de6.css",
-    "static/js/main.f70507c6.js"
+    "static/js/main.5b09685d.js"
   ]
 }
