@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import Recipe from "../../assets/recipeSearch.png";
 import BookSpot from "../../assets/bookSpot.png";
-// import Quiz from '../../assets/quiz.png';
+import Quiz from "../../assets/quiz.png";
 import NoteTaker from "../../assets/notetaker.png";
 import dayplanner from "../../assets/dayplanner.png";
 import textEditor from "../../assets/texteditor.png";
@@ -25,13 +25,13 @@ const data = [
     github: "https://github.com/Kristixxg/Apple-Clone",
     demo: "https://apple-clone-kg.herokuapp.com/",
   },
-  //   {
-  //     id: 2,
-  //     image: whosthere,
-  //     title: "Whos There",
-  //     github: "https://github.com/Kristixxg/whos-there",
-  //     demo: "https://whos-there-kkc.herokuapp.com/",
-  //   },
+  {
+    id: 2,
+    image: whosthere,
+    title: "Whos There",
+    github: "https://github.com/Kristixxg/whos-there",
+    demo: "https://whos-there-kkc.herokuapp.com/",
+  },
   {
     id: 3,
     image: Recipe,
@@ -67,13 +67,13 @@ const data = [
     github: "https://github.com/Kristixxg/book-spot-search-tool",
     demo: "https://aqueous-plateau-74718.herokuapp.com/",
   },
-  // {
-  //     id:4,
-  //     image: Quiz,
-  //     title: 'Code Quiz',
-  //     github: 'https://github.com/Kristixxg/code-quiz',
-  //     demo:'https://kristixxg.github.io/code-quiz/'
-  // },
+  {
+    id: 4,
+    image: Quiz,
+    title: "Code Quiz",
+    github: "https://github.com/Kristixxg/code-quiz",
+    demo: "https://kristixxg.github.io/code-quiz/",
+  },
 ];
 
 const Portfolio = () => {
