@@ -8,6 +8,7 @@ import dayplanner from "../../assets/dayplanner.png";
 import textEditor from "../../assets/texteditor.png";
 import whosthere from "../../assets/Frame2.jpg";
 import chatgpt from "../../assets/chatgpt.svg";
+import cart from "../../assets/cart.jpeg";
 
 const data = [
   {
@@ -16,6 +17,13 @@ const data = [
     title: "ChatGPT Clone",
     github: "https://github.com/Kristixxg/chatgpt-clone",
     demo: "https://chatgpt-clone-kristixxg.vercel.app/",
+  },
+  {
+    id: 2,
+    image: cart,
+    title: "Apple Store Redesign",
+    github: "https://github.com/Kristixxg/Apple-Clone",
+    demo: "https://apple-clone-kg.herokuapp.com/",
   },
   //   {
   //     id: 2,
